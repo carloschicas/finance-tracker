@@ -51,10 +51,22 @@
     <orderEntry type="library" scope="PROVIDED" name="concurrent-ruby (v1.1.9, ruby-2.7.3-p183) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="crass (v1.0.6, ruby-2.7.3-p183) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="devise (v4.8.0, ruby-2.7.3-p183) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="devise-bootstrap-views (v1.1.0, ruby-2.7.3-p183) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubi (v1.10.0, ruby-2.7.3-p183) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="faraday (v1.5.1, ruby-2.7.3-p183) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="faraday-em_http (v1.0.0, ruby-2.7.3-p183) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="faraday-em_synchrony (v1.0.0, ruby-2.7.3-p183) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="faraday-excon (v1.1.0, ruby-2.7.3-p183) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="faraday-httpclient (v1.0.1, ruby-2.7.3-p183) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="faraday-net_http (v1.0.1, ruby-2.7.3-p183) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="faraday-net_http_persistent (v1.2.0, ruby-2.7.3-p183) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="faraday-patron (v1.0.0, ruby-2.7.3-p183) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="faraday_middleware (v1.0.0, ruby-2.7.3-p183) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ffi (v1.15.3, ruby-2.7.3-p183) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="globalid (v0.4.2, ruby-2.7.3-p183) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="hashie (v4.1.0, ruby-2.7.3-p183) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v1.8.10, ruby-2.7.3-p183) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="iex-ruby-client (v1.4.1, ruby-2.7.3-p183) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.11.2, ruby-2.7.3-p183) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="loofah (v2.10.0, ruby-2.7.3-p183) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.7.1, ruby-2.7.3-p183) [gem]" level="application" />
@@ -62,7 +74,10 @@
     <orderEntry type="library" scope="PROVIDED" name="method_source (v1.0.0, ruby-2.7.3-p183) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mini_mime (v1.1.0, ruby-2.7.3-p183) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="minitest (v5.14.4, ruby-2.7.3-p183) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="money (v6.16.0, ruby-2.7.3-p183) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="money_helper (v1.0.2, ruby-2.7.3-p183) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="msgpack (v1.4.2, ruby-2.7.3-p183) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="multipart-post (v2.1.1, ruby-2.7.3-p183) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nio4r (v2.5.7, ruby-2.7.3-p183) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.11.7, ruby-2.7.3-p183) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="orm_adapter (v0.5.0, ruby-2.7.3-p183) [gem]" level="application" />
@@ -81,6 +96,7 @@
     <orderEntry type="library" scope="PROVIDED" name="rake (v13.0.6, ruby-2.7.3-p183) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="regexp_parser (v2.1.1, ruby-2.7.3-p183) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="responders (v3.0.1, ruby-2.7.3-p183) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ruby2_keywords (v0.0.5, ruby-2.7.3-p183) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rubyzip (v2.3.2, ruby-2.7.3-p183) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v6.0.0, ruby-2.7.3-p183) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sassc (v2.4.0, ruby-2.7.3-p183) [gem]" level="application" />
@@ -123,6 +139,8 @@
         <option value="devise:controllers" />
         <option value="devise:install" />
         <option value="devise:views" />
+        <option value="devise:views:bootstrap_templates" />
+        <option value="devise:views:locale" />
         <option value="generator" />
         <option value="helper" />
         <option value="integration_test" />
@@ -161,6 +179,8 @@
         <option value="devise:controllers" />
         <option value="devise:install" />
         <option value="devise:views" />
+        <option value="devise:views:bootstrap_templates" />
+        <option value="devise:views:locale" />
         <option value="generator" />
         <option value="helper" />
         <option value="integration_test" />
