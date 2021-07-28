@@ -29,4 +29,8 @@ class User < ApplicationRecord
 
     'Anonymous'
   end
+
+  def self.check_db(friend_email)
+    where(email: friend_email).first
+  end
 end
