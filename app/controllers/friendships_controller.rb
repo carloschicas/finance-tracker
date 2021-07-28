@@ -1,17 +1,19 @@
 class FriendshipsController < ApplicationController
 
   def create
-    friend = User.check_db(params[:email])
-    @friendship = Friendship.create(user: current_user, friend: friend)
-    flash[:notice] = "User #{friend.full_name} was successfully added to your friends"
+    current_user.friendships.build(friend_id: params[:friend])
+    flash[:notice] = if current_user.save
+                       'Following friend'
+                     else
+                       'There was something wrong'
+                     end
     redirect_to my_friends_path
   end
 
   def destroy
-    friend = User.find(params[:id])
-    friendship = Friendship.where(user_id: current_user.id, friend_id: friend.id).first
+    friendship = current_user.friendships.where(friend_id: params[:id]).first
     friendship.destroy
-    flash[:notice] = "#{friend.full_name} was successfully removed from friends"
+    flash[:notice] = 'Stopped following'
     redirect_to my_friends_path
   end
 end
